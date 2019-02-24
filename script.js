@@ -1,5 +1,5 @@
-function click(){
-	document.write("Clicked");
+function click(event){
+	document.write("Clicked :" + event.target);
 }
 
 document.querySelector("button")
